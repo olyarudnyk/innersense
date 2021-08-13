@@ -1,0 +1,179 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.header {
+	background-color: rgb(199, 188, 169, 0.3);
+	max-height:  150px;
+	width:  100%;
+}
+
+
+.image-logo {
+	max-width: 100%;
+	max-height:  150px;
+}
+
+.link-of-nav {
+	font-size:  1.5rem;
+}
+
+
+.header-section {
+	height: 800px;
+	background:url("https://4d8mld30ebl72j3h3u3gpxp8-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Quiet-Calm-Curl-Control-and-I-Create-Volume-10oz-Evergreen-254-Innersense-Organic-Beauty-1.jpg") no-repeat center 10% fixed; 
+  	background-size: cover;
+}
+
+
+.row-button {
+	position: absolute;	
+	bottom: 10rem;
+	width:  100%;
+}
+
+.pop-items {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.card-title-custom {
+    display:  block;
+    height: 45px;
+	line-height: 20px;
+}
+
+.card-pop-item {
+	border-style: none;
+}
+
+.card-review {
+	height:  100%;
+	border-style: none;
+	margin-left:  10px;
+}
+
+.card-review::after {
+	content: "";
+	display: block;
+	left: -20px;
+	top: 20%;
+	height: 60%;
+	border-left:  1px solid lightgrey;
+	position:  absolute;
+
+}
+
+.card-review__border-none::after {
+	border: none
+}
+
+
+.сard-footer {
+	width: 18rem;
+	border-style: none;
+}
+
+.row-footer{
+	margin-top: 8rem;
+	background-color: rgb(213, 213, 213);
+}
+
+.list-group-flush .list-item {
+	border-style: none;	
+	background-color: rgb(213, 213, 213);
+}
+
+.list-group-flush .list-item:first-child{
+	font-size: 1.5rem;
+}
+
+
+a.text-dark .sm-logo {
+	width: 25px;
+	height:  25px;
+}
+
+.header-details-button {
+	margin-top: 400px;
+	transition-duration: 1s
+}
+
+.product-image {
+	max-height: 200px;
+	width: auto;
+	align-self: center;`
+}
+
+@media (max-width: 1130px) {
+	.link-of-nav {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 750px) {
+	.link-of-nav {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 585px) {
+	.pop-items {
+		width:  100%;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+
+.modal .modal-dialog {
+	max-width: 2000px;
+}
+
+.arrow-left {
+	width:  30px;
+	height:  30px;
+	margin-top:  20px;
+}
+
+.title {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.post-select {
+	width: 100%;
+}
+
+.order-title {
+	border-bottom:  1px solid black;
+}
+
+.order-image {
+	width: 10rem;
+	height:  100%;
+}
+
+.order-info {
+	border-style: none;
+	width: 18rem;
+}
+
+.order-icon {
+	width: 2rem;
+	height: 2rem;
+	margin-left: 5px;
+	margin-right:  5px;
+}
+
+@media (max-width: 585px) {
+	.common-summ {
+		width:  250px;
+		padding: 0;
+	}
+}
